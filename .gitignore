@@ -1,0 +1,30 @@
+# 本地 Python 环境与工具
+.venv/
+.venv-gpu/
+.tools/
+__pycache__/
+*.py[cod]
+
+# setup 下载或生成的内容
+lcm-eval/
+data/
+prepared/
+
+# 训练、评估及远端传输产物
+models/
+evaluation/
+logs/
+outgoing/
+gpu_results/
+
+# 脚本运行时临时文件
+.queue.*
+.task.*
+.tasks.*
+.packlist.*
+.gpu-bundle.*
+
+# 常见编辑器与系统文件
+.DS_Store
+.idea/
+.vscode/
